@@ -1,5 +1,7 @@
 # TaiwanCalendar
 
+[![jsDelivr ruyut/TaiwanCalendar/badge)](https://data.jsdelivr.com/v1/package/gh/ruyut/TaiwanCalendar/badge)](https://www.jsdelivr.com/package/gh/ruyut/TaiwanCalendar)
+
 紀錄中華民國政府行政機關辦公日曆表的 JSON 資料，內容包含日期、星期、是否放假、說明。
 
 ## 關於
