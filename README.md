@@ -1,6 +1,6 @@
 # TaiwanCalendar
 
-[![jsDelivr ruyut/TaiwanCalendar/badge)](https://data.jsdelivr.com/v1/package/gh/ruyut/TaiwanCalendar/badge)](https://www.jsdelivr.com/package/gh/ruyut/TaiwanCalendar)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/ruyut/TaiwanCalendar/badge)](https://www.jsdelivr.com/package/gh/ruyut/TaiwanCalendar)
 
 紀錄中華民國政府行政機關辦公日曆表的 JSON 資料，內容包含日期、星期、是否放假、說明。
 
@@ -63,8 +63,9 @@ https://cdn.jsdelivr.net/gh/ruyut/TaiwanCalendar/data/2023.json
 
 ## 已知問題
 
-因僅調整格式，未更改 `description` 資料內容，故無法直接使用 `description` 資料內容判斷，2017 ~ 2020 年補班的說明為 `調整上班`，但 2021 ~ 2023
-年的說明為 `補行上班`。且 2023 年的說明還有包含 `小年夜`
+因僅調整格式，未更改 `description` 資料內容，故無法直接使用 `description` 資料內容判斷，2017 ~ 2020 年補班的說明為 `調整上班`，但 2021 年起的說明為 `補行上班`。且 2023 年的說明還有包含 `小年夜`
+
+另外，依 2026、2027 年度資料，這兩年皆未安排補班日（無 `調整上班` 或 `補行上班` 的說明）。
 
 目前已出現過的內容為: 開國紀念日, 補假, 小年夜, 農曆除夕, 春節, 調整上班, 補行上班, 調整放假, 放假, 和平紀念日, 兒童節及民族掃墓節, 兒童節,
 民族掃墓節, 端午節, 中秋節, 國慶日
